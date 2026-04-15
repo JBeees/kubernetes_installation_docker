@@ -1,4 +1,36 @@
-﻿# Kubernetes Installation on Ubuntu 22.04/24.04
+﻿## Pengembang / Kelompok
+
+| Nama | NIM |
+|------|-----|
+| Muhammad Arif Rifki | 235150200111066 |
+| MUHAMMAD Rafindran Luthfi | 235150200111063 |
+| Alfi Muhammad Ghiffari | 235150200111048 |
+
+### Screenshot Hasil Deployment
+
+#### 1. Nodes
+![Nodes](manajemen_klaster_k8s/nodes.png)
+> Menampilkan node yang aktif dalam klaster Kubernetes (master).
+
+#### 2. Pods Running (3 Replicas)
+![Pods Running](manajemen_klaster_k8s/pods.png)
+> Aplikasi login berjalan dengan 3 replicas pod untuk high availability.
+
+#### 3. Services
+![Service](manajemen_klaster_k8s/services.png)
+> Service NodePort pada port 30080 yang mengekspos aplikasi ke jaringan lokal.
+
+#### 4. Halaman Login
+![Login Page](manajemen_klaster_k8s/login.png)
+> Tampilan halaman login aplikasi yang dapat diakses melalui http://<IP_MASTER>:30080.
+
+#### 5. Dashboard Upload Image
+![Dashboard](manajemen_klaster_k8s/upload_image.png)
+> Halaman dashboard setelah login berhasil, menampilkan fitur upload gambar.
+
+Aplikasi di-deploy dengan **3 replicas** untuk memastikan ketersediaan tinggi (high availability), 
+sehingga jika salah satu pod mengalami masalah, pod lainnya tetap melayani request pengguna.
+# Kubernetes Installation on Ubuntu 22.04/24.04
 
 Get the detailed information about the installation from the below-mentioned websites of **Docker** and **Kubernetes**.
 
