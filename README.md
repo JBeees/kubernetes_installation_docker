@@ -1,10 +1,10 @@
 ﻿## Pengembang / Kelompok
 
-| Nama | NIM |
-|------|-----|
-| Muhammad Arif Rifki | 235150200111066 |
-| MUHAMMAD Rafindran Luthfi | 235150200111063 |
-| Alfi Muhammad Ghiffari | 235150200111048 |
+| Nama | NIM | Github Username | 
+|------|-----|-----|
+| Muhammad Arif Rifki | 235150200111066 | JBeees |
+| MUHAMMAD Rafindran Luthfi | 235150200111063 | rafinran |
+| Alfi Muhammad Ghiffari | 235150200111048 | nivy2534 |
 
 ### Screenshot Hasil Deployment
 
